@@ -24,4 +24,4 @@
 - 其它
   - 终端
     - [01 powershell 常用命令](其它/终端/01-powershell-常用命令.md)
-    - [01 powershell alias](其它/终端/02-powershell-alias.md)
+    - [02 powershell alias](其它/终端/02-powershell-alias.md)
