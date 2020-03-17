@@ -20,3 +20,8 @@
   - 兼容性 + Hack
     - [01 iframe 自适应高度](前端/兼容性+Hack/01-iframe-自适应高度.md)
     - [02 热点自适应](前端/兼容性+Hack/02-热点自适应.md)
+    - [03 ajax 上传文件](前端/兼容性+Hack/03-ajax-上传文件.md)
+- 其它
+  - 终端
+    - [01 powershell 常用命令](其它/终端/01-powershell-常用命令.md)
+    - [01 powershell alias](其它/终端/02-powershell-alias.md)
