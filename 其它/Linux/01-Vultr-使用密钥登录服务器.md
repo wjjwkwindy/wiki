@@ -28,6 +28,10 @@ cp -rf id_rsa.pub /home/username/.ssh/
 
 ## 5.修改服务器的 ssh config 文件
 
+```shell
+root@vultr: vim /etc/ssh/sshd_config
+```
+
 ```txt
 #修改端口号
 Port xxxx
@@ -52,6 +56,11 @@ PermitEmptyPasswords no
 
 #禁用 PAM
 UsePAM no
+```
+
+```shell
+// 重启
+root@vultr: /etc/init.d/ssh restart
 ```
 
 ## 6.授予 user su 权限
