@@ -18,3 +18,5 @@
   - 终端
     - [01 powershell 常用命令](其它/终端/01-powershell-常用命令.md)
     - [02 powershell alias](其它/终端/02-powershell-alias.md)
+  - Linux
+    - [01 Vultr 使用密钥登录服务器](其它/Linux/01-Vultr-使用密钥登录服务器.md)
