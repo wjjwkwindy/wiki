@@ -2,7 +2,7 @@
 
 ## 查看 powershell 的版本
 
-```shell
+```bash
 PS> $Host.Version
 Major  Minor  Build  Revision
 -----  -----  -----  --------
@@ -28,7 +28,7 @@ Runspace         : System.Management.Automation.Runspaces.LocalRunspace
 
 ## `Get-Command` | `gcm` 查看命令
 
-```shell
+```bash
 PS> Get-Command Set-Alias
 CommandType     Name              Version    Source
 -----------     ----              -------    ------
@@ -42,7 +42,7 @@ Cmdlet          Set-Alias         3.1.0.0    Microsoft.PowerShell.Utility
 
 ## `Set-Alias` 设置别名
 
-```shell
+```bash
 PS> Set-Alias -Name dir -Value Get-ChildItem
 
 PS> Get-Alias -Name dir
@@ -54,7 +54,7 @@ Alias           dir -> Get-ChildItem
 
 ## `Remove-Alias` | `Remove-Item` 删除别名
 
-```shell
+```bash
 PS> Remove-Alias -Name dir
 
 PS> Remove-Item Alias:dir (低于5.x版本)
@@ -62,7 +62,7 @@ PS> Remove-Item Alias:dir (低于5.x版本)
 
 ## `Invoke-Item` | `ii` 从 powershell 中打开资源管理器
 
-```shell
+```bash
 PS> Invoke-Item .
 or
 PS> ii .

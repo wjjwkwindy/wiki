@@ -2,7 +2,7 @@
 
 ## 1.使用 powershell 的 function 来实现
 
-```shell
+```bash
 PS> function get-gitstatus { git status }
 
 PS> get-gitstatus

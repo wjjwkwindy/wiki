@@ -8,7 +8,7 @@
 
 - 避免使用 Node 的 `path` 类方法来创建 glob，例如 `path.join`。
 
-  ```shell
+  ```bash
   const invalidGlob = path.join(__dirname, 'src/*.js');
   ```
 

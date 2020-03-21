@@ -2,19 +2,19 @@
 
 ## 1.客户端生成密钥对
 
-```shell
+```bash
 ssh-keygen -t rsa
 ```
 
 ## 2.将公钥复制到服务器上
 
-```shell
+```bash
 scp -P 22 /.ssh/id_rsa.pub root@xxx.xxx.xxx.xxx
 ```
 
 ## 3.新建用户并添加和授权 .ssh 文件夹
 
-```shell
+```bash
 adduser username
 mkdir /home/username/.ssh
 chown -R username:username /home/username/.ssh
@@ -22,13 +22,13 @@ chown -R username:username /home/username/.ssh
 
 ## 4.复制公钥到 .ssh 文件夹中
 
-```shell
+```bash
 cp -rf id_rsa.pub /home/username/.ssh/
 ```
 
 ## 5.修改服务器的 ssh config 文件
 
-```shell
+```bash
 root@vultr: vim /etc/ssh/sshd_config
 ```
 
@@ -58,18 +58,18 @@ PermitEmptyPasswords no
 UsePAM no
 ```
 
-```shell
+```bash
 // 重启
 root@vultr: /etc/init.d/ssh restart
 ```
 
 ## 6.授予 user su 权限
 
-```shell
+```bash
 ```
 
 ## 7.使用密钥进行登录
 
-```shell
+```bash
 ssh -i .ssh/id_rsa username@xxx.xxx.xxx.xxx -p 22
 ```

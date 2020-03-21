@@ -2,7 +2,7 @@
 
 ## 安装 gulp.js
 
-```shell
+```bash
 npm install gulp-cli -g
 cd my-project
 npm install gulp -D

@@ -2,11 +2,12 @@
 
 ## CosyRain's wiki
 
-[![D](https://img.shields.io/badge/captain-COSYRAIN-blue.svg)](https://co2oc.com)
+[![D](https://img.shields.io/badge/captain-COSYRAIN-blue.svg?style=flat-square&logo=elixir)](https://co2oc.com)
 
 | 目录 | 描述                                                         |
 | :--- | :----------------------------------------------------------- |
 | 前端 | 前端知识库，包括但不限于 JavaScript、CSS、兼容性 Hack 等知识 |
+| 其它 | 其它技术方面知识，采集以备查阅 |
 
 - 前端
   - JavaScript
