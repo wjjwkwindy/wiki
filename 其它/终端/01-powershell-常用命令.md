@@ -59,3 +59,11 @@ PS> Remove-Alias -Name dir
 
 PS> Remove-Item Alias:dir (低于5.x版本)
 ```
+
+## `Invoke-Item` | `ii` 从 powershell 中打开资源管理器
+
+```shell
+PS> Invoke-Item .
+or
+PS> ii .
+```
