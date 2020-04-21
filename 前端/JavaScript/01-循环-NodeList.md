@@ -60,7 +60,7 @@ doms.forEach(function(currentValue,currentIndex,listObj){
 )
 ```
 
-> Polyfill
+### Polyfill
 
 ```javascript
 if (window.NodeList && !NodeList.prototype.forEach) {
@@ -73,7 +73,7 @@ if (window.NodeList && !NodeList.prototype.forEach) {
 }
 ```
 
-或者
+*或者*
 
 ```javascript
 if (window.NodeList && !NodeList.prototype.forEach) {
