@@ -42,7 +42,7 @@ doms.foreach(function (element){
 })
 ```
 
-## 4. 原生 forEach 函数
+## 4. 原生 Nodelist forEach 函数
 
 > 2016 年以后版本的浏览器 [Can I use](https://caniuse.com/#feat=mdn-api_nodelist_foreach) Global -> 89.72%  
 > [MDN - NodeList.prototype.forEach()](https://developer.mozilla.org/zh-CN/docs/Web/API/NodeList/forEach)  
