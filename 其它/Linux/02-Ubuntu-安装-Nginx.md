@@ -1,7 +1,7 @@
 # Ubuntu 安装 Nginx
 
 > Ubuntu: 18.04  
-> 参考链接：https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04
+> 参考链接：[How To Install Nginx on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04)
 
 ## Step 1 - 安装 Nginx
 
