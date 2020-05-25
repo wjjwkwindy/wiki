@@ -16,6 +16,7 @@
     - [01 整站变灰特效](前端/CSS/01-整站变灰特效.md)
   - JavaScript
     - [01 循环 NodeList](前端/JavaScript/01-循环-NodeList.md)
+    - [02 常见设计模式](前端/JavaScript/02-常见设计模式.md)
   - 移动端
     - [01 淘宝可伸缩布局方案 flexible](前端/移动端/01-淘宝可伸缩布局方案-flexible.md)
   - 构建工具
