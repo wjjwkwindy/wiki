@@ -58,3 +58,61 @@ Nginx HTTP                 ALLOW       Anywhere
 OpenSSH (v6)               ALLOW       Anywhere (v6)             
 Nginx HTTP (v6)            ALLOW       Anywhere (v6)
 ```
+
+## Step 3 - 测试 web 服务器
+
+测试 Nginx 是否正常运行：
+
+```
+systemctl status nginx
+```
+
+访问 ip 地址查看是否能正常访问
+
+## Step 4 - 管理 Nginx 进程
+
+要停止服务，请输入：
+
+```bash
+sudo systemctl stop nginx
+```
+
+要在服务停止时启动它，请输入：
+
+```bash
+sudo systemctl start nginx
+```
+
+要停止并重新启动服务，请输入：
+
+```bash
+sudo systemctl restart nginx
+```
+
+如果你只是修改了配置，Nginx 可以在不断开链接的情况下重新加载。要这样操作，请输入：
+
+```bash
+sudo systemctl reload nginx
+```
+
+默认情况下，Nginx 会在服务器启动时自动启动。如果你不希望这样，输入下面的命令来禁止此行为：
+
+```bash
+sudo systemctl disable nginx
+```
+
+要重新启用自动启动，请输入：
+
+```bash
+sudo systemctl enable nginx
+```
+
+## Step 5 - 设置 Server Blocks（推荐）
+
+为 **example.com** 创建一个文件夹，输入 `-p` 参数来创建必要的父文件夹。
+
+```bash
+sudo mkdir -p /var/www/example.com/html
+```
+
+// TODO

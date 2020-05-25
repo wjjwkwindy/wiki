@@ -37,3 +37,4 @@
     - [02 powershell alias](其它/终端/02-powershell-alias.md)
   - Linux
     - [01 Vultr 使用密钥登录服务器](其它/Linux/01-Vultr-使用密钥登录服务器.md)
+    - [02 Ubuntu 安装 Nginx](其它/Linux/02-Ubuntu-安装-Nginx.md)
